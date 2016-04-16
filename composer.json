@@ -1,0 +1,22 @@
+{
+    "name": "duxet/laravel-alice",
+    "description": "Alice fixtures generator for Laravel",
+    "license": "MIT license",
+    "authors": [
+        {
+            "name": "duxet",
+            "email": "duxetlg@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^5.2",
+        "nelmio/alice": "^2.1",
+        "illuminate/console": "^5.2",
+        "illuminate/filesystem": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "duxet\\Alice\\": "src"
+        }
+    }
+}
